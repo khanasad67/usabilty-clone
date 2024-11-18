@@ -243,6 +243,28 @@ header {
     margin-top: 30px;
 }
 
+footer{
+  padding-block: 80px;
+  background-color: #ebf2fa;
+}
+
+.footer-container{
+  align-items: start;
+  justify-content:space-between ;
+}
+
+.link-column{
+  flex-direction: column;
+  gap: 20px;
+}
+
+.link-column a{
+  color: #183b54;
+}
+
+.link-column a:hover{
+  color: var(--accent-color-dark)
+}
 .spacer{
     min-height: 50vh;
 }
