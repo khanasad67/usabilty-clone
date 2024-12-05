@@ -1,1 +1,47 @@
-git status
+.container {
+    overflow: hidden;
+}
+
+.toggle-btn{
+    display: none;
+}
+
+.example-card{
+    height: 300px;
+}
+
+@media screen and (max-width:991px){
+    h2{
+        font-size: 1.2rem;
+    }
+.toggle-btn{
+    display: block;
+    margin-right: 20px;
+    }
+
+.nav-links{
+    display:none;
+    }
+
+.example-area{
+    flex-wrap: wrap;
+    gap: 10px;
+    } 
+
+.example-card{
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-section{
+        flex-direction:column-reverse
+    }
+    .header-left{
+        width: 100%;
+    }
+    .secondary-button{
+        width: 100%;
+    }
+}
